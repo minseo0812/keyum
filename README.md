@@ -1,4 +1,4 @@
-]633;E;{ head -1 README.md\x3b printf '\\n[KEYUM.exe 다운로드 (최신 버전)](https://github.com/minseo0812/keyum/releases/latest)\\n'\x3b tail -n +2 README.md\x3b } > README.tmp && mv README.tmp README.md;2317de7a-6eb4-414a-8f4b-676f3c229ace]633;C# KEYUM (키음)
+# KEYUM (키음)
 
 [KEYUM.exe 다운로드 (최신 버전)](https://github.com/minseo0812/keyum/releases/latest)
 
