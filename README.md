@@ -62,3 +62,13 @@ Python, [pynput](https://pypi.org/project/pynput/)(전역 키 입력), [pygame-c
 - [ ] 설정을 JSON 파일로 분리
 - [ ] 트레이 아이콘, 설정 화면 (Electron + React)
 - [ ] 음색 프리셋
+
+## 알려진 한계
+
+- Windows 11에서 만들고 확인했어요. macOS와 Linux는 아직 테스트하지 않았어요.
+- 실행하면 소리를 준비하느라 처음에 몇 초 걸려요.
+- 전역 키 입력을 감지하는 프로그램이라 일부 백신이나 보안 프로그램이 경고할 수 있어요. 코드는 `keyum.py` 한 파일이고, 눌린 키는 저장하지 않아요.
+
+## 라이선스
+
+[MIT License](LICENSE)
